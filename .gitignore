@@ -1,0 +1,59 @@
+# Build artifacts
+bin/
+*.o
+*.so
+*.a
+*.dylib
+
+# Executables
+test_libpt
+prayer_times_demo
+libpt
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# CMake (if used in future)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# Tags and indexing
+tags
+.tags
+.ctags
+cscope.*
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Documentation generated files
+*.pdf
+*.html
+
+# Dependencies (if installed locally)
+lib/
+include/local/
+
+# Test outputs
+*.log
