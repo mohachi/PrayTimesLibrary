@@ -10,9 +10,6 @@
 #ifndef PRAYERTIMES_H
 #define PRAYERTIMES_H
 
-#include <stdint.h>
-#include <stdbool.h>
-
 /**
  * @enum PrayerTimeIndex
  * @brief فهارس أوقات الصلاة
